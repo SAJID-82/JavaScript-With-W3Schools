@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Data</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="form-container" class="form-container">
+
+        <h1>FILL THIS FORM</h1>
+
+      <form action="data.txt" method="post">
+
+        <label for="Firstname">Firstname: </label>
+        <input type="text" id="Firstname"><br>
+
+        <label for="Lastname">Lastname: </label>
+        <input type="text" id="Lastname"><br>
+
+        <label for="fullname">Fullname: </label>
+        <input type="text" id="fullname"><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" name="" id="email"><br>
+
+        <label for="ph-no">Number: </label>
+        <input type="tel" name="" id="ph-no"><br>
+        
+        <button class="btn" type="submit" id="btn">Submit</button>
+
+      </form>
+
+    </div>
+
+    <pre class="form-details" id="form-details"></pre>
+    <script src="script.js"></script>
+</body>
+</html>
